@@ -1,0 +1,21 @@
+{
+    "data": "./data/dims=1&n=16&spline=8",
+    "criterion": "MSELoss",
+    "optimizer": "Adam",
+    "epochs": "150000",
+    "model_args": [
+        "1",
+        "10",
+        "1"
+    ],
+    "optim_args": [
+        [
+            "lr",
+            "weight_decay"
+        ],
+        [
+            "0.0001",
+            "1e-05"
+        ]
+    ]
+}
